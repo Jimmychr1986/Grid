@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aquamarine;
+    grid-area: nav;
+}
+
+aside{
+    grid-area: aside;
+}
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+    border: 2px;
+    height: 100 px;
+    width: 100px;
+    width: 200px;
+    border: 2px solid rgb(29, 173, 24); 
+    background-color: rgb(190, 118, 35);
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(226, 133, 26);
+}
+
+footer{
+    background-color: rgb(75, 192, 60);
+}
