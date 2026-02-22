@@ -8,9 +8,24 @@ nav{
     background-color: black;
     grid-area: nav;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
+    flex-direction: column;
+}
+
+
+.barcalogo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 140px;
+    height: 38px;
+    border: 2px solid rgb(107, 23, 163); 
+}
+
+    .nav i{
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    border: 2px solid rgb(4, 49, 3); 
 }
 
 aside{
@@ -76,11 +91,13 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 80vh;
+    height: 90vh;
     border: 3px solid rgb(219, 15, 15); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
     margin-top: 3px;
     margin-bottom: 3px;
-
 }
 
 .grid{
@@ -89,9 +106,15 @@ main{
     align-items: center;
     justify-content: center;
     height: 90vh;
-    padding: 5px;
     margin-top: 3px;
-    background-color: rgb(40, 99, 6);
+
+}
+
+.estado{
+    font-size: 8px;
+    color: rgb(129, 130, 131);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
 .product1 {
@@ -100,7 +123,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product1 img{
@@ -116,7 +139,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product2 img{
@@ -132,7 +155,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product3 img{
@@ -148,7 +171,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product4 img{
@@ -164,7 +187,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product5 img{
@@ -180,7 +203,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product6 img{
@@ -196,7 +219,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product7 img{
@@ -212,7 +235,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product8 img{
@@ -228,7 +251,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product9 img{
@@ -244,7 +267,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.2rem;
     border: 1px solid rgb(77, 4, 10); 
 }
 .product10 img{
