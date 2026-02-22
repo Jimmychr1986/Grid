@@ -5,26 +5,65 @@
 }
 
 nav{
-    background-color: #181733;
-    grid-area: nav;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: black;
+    grid-area: nav;
 }
 
+.barra{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
 
 .barcalogo{
-    display: flex;
-    flex-direction: column;
     margin-left: 30px;
-    width: 140px;
+    width: 60px;
     height: 38px;
-    background-attachment: fixed;
 }
 
-    .nav i{
+nav p{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+    justify-content: center ;
+    color: white;
+    font-size: 15px;
+}
+
+.navizquierdo{
     display: flex;
-    flex-direction: column;
-    width:50px;
+    flex-direction: row;
+    width: 15%;
+}
+
+.carrito{
+    margin: 10px;
+    padding: 2px;
+    justify-content: right;
+
+}
+
+.account{
+    margin: 10px;
+    padding: 2px;
+    justify-content: right;
+
+}
+
+.find{
+    margin: 10px;
+    padding: 2px;
+    justify-content: right;
+}
+
+.language{
+    margin: 10px;
+    padding: 2px;
+    justify-content: right;
 }
 
 aside{
@@ -159,6 +198,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
+
 
 }
 .product1 img{
@@ -326,7 +366,7 @@ footer p{
     display: flex;
     flex-direction: rows;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -347,7 +387,7 @@ footer p{
 
 .pay-methods{
     display: flex;
-    flex-direction: rows;
+    flex-direction: row;
     justify-content: center;
     width: 50%;
 }
@@ -368,6 +408,11 @@ footer p{
 }
 
 .ipay{
+    margin: 10px;
+    padding: 3px;
+}
+
+.apay{
     margin: 10px;
     padding: 3px;
 }
