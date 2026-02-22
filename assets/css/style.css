@@ -5,7 +5,7 @@
 }
 
 nav{
-    background-color: #181733;;
+    background-color: #181733;
     grid-area: nav;
     display: flex;
     flex-direction: column;
@@ -54,13 +54,8 @@ main{
     margin-top: 5px;
 }
 
-.Categorias{
-    display: flexbox;
-    flex-direction: column;
-    height: 30px;
-    justify-content: center;
-    text-align: center;
-    padding: 5px;
+.menu-desplegable{
+    display: block;
 }
 
 .Categoria1{
@@ -321,6 +316,58 @@ button{
 }
 
 footer{
-    height: 20px;
-    background-color: rgb(75, 192, 60);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #181733;
+}
+
+footer p{
+    display: flex;
+    flex-direction: rows;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.right{
+    justify-content: center;
+    text-align: center;
+}
+
+.pay-methods{
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    width: 50%;
+}
+
+.visa{
+    margin: 10px;
+    padding: 3px;
+}
+
+.mastercard{
+    margin: 10px;
+    padding: 3px;
+}
+
+.gpay{
+    margin: 10px;
+    padding: 3px;
+}
+
+.ipay{
+    margin: 10px;
+    padding: 3px;
 }
