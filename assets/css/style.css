@@ -5,32 +5,268 @@
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: black;
     grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
 }
 
 aside{
     grid-area: aside;
 }
 
+main{
+    display: grid;
+    grid-template-areas: 
+        'nav nav'
+        'aside section'
+        'footer footer'
+    ;
+    height: 100vh;
+    grid-template-columns: 18% auto;
+    grid-template-rows: 7% auto 6%;
+
+}
+
 .leftcontainer{
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    gap: 10px; 
-    border: 2px;
-    height: 100 px;
-    width: 100px;
+    text-align: center;
+    padding: 10px;
     width: 200px;
+    margin-top: 5px;
     border: 2px solid rgb(29, 173, 24); 
-    background-color: rgb(190, 118, 35);
 }
 
-section{
+.Categorias{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 66, 104); 
+}
+.Categoria1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 66, 104); 
+}
+.Categoria2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 66, 104); 
+}
+.Categoria3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 66, 104); 
+}
+.Categoria4{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 66, 104); 
+}
+.Categoria5{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 66, 104); 
+}
+
+.seccion{
     grid-area: section;
-    background-color: rgb(226, 133, 26);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 80vh;
+    border: 3px solid rgb(219, 15, 15); 
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding: 5px;
+    margin-top: 3px;
+    background-color: rgb(40, 99, 6);
+}
+
+.product1 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product1 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product2 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product2 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product3 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product3 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product4 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product4 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product5 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product5 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product6 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product6 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product7 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product7 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product8 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product8 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product9 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product9 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+.product10 {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    border: 1px solid rgb(77, 4, 10); 
+}
+.product10 img{
+    margin: 0.5rem;
+    width: 85%;
+    height: 85%;
+
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(238, 196, 7);
+    cursor: pointer;
+    margin: 0.5rem;
+    height: 30px;
+    width: 130px;
+    font-size:10px;
+    text-align: center;
 }
 
 footer{
+    height: 20px;
     background-color: rgb(75, 192, 60);
 }
