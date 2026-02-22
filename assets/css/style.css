@@ -42,6 +42,7 @@ main{
     height: 100vh;
     grid-template-columns: 18% auto;
     grid-template-rows: 7% auto 6%;
+    background-color: brown;
 
 }
 
@@ -92,7 +93,6 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 90vh;
-    border: 3px solid rgb(219, 15, 15); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     text-align: center;
@@ -107,9 +107,14 @@ main{
     justify-content: center;
     height: 90vh;
     margin-top: 3px;
-
 }
 
+.description{
+    font-size: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
 .estado{
     font-size: 8px;
     color: rgb(129, 130, 131);
@@ -124,7 +129,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
+
 }
 .product1 img{
     margin: 0.5rem;
@@ -140,7 +145,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product2 img{
     margin: 0.5rem;
@@ -156,7 +160,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product3 img{
     margin: 0.5rem;
@@ -172,7 +175,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product4 img{
     margin: 0.5rem;
@@ -188,7 +190,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product5 img{
     margin: 0.5rem;
@@ -204,7 +205,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product6 img{
     margin: 0.5rem;
@@ -220,7 +220,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product7 img{
     margin: 0.5rem;
@@ -236,7 +235,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product8 img{
     margin: 0.5rem;
@@ -252,7 +250,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product9 img{
     margin: 0.5rem;
@@ -268,7 +265,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0.2rem;
-    border: 1px solid rgb(77, 4, 10); 
 }
 .product10 img{
     margin: 0.5rem;
